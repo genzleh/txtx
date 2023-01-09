@@ -1,0 +1,22 @@
+{
+  "name": "uniswap_sdk",
+  "version": "1.0.0",
+  "description": "Bot created to track prices on uniswap using uniswap_sdk and buy ERC20 tokens with ETH at a given price",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "keywords": [
+    "uniswap",
+    "defi",
+    "erc20"
+  ],
+  "author": "Carlos Alvarez",
+  "license": "ISC",
+  "dependencies": {
+    "@uniswap/sdk": "^3.0.3",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.4.1"
+  }
+}
